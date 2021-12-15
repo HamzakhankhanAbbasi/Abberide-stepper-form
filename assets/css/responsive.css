@@ -1,0 +1,97 @@
+@media only screen and (max-width:1920px) {
+
+}
+@media only screen and (max-width:1540px) {
+
+}
+
+@media only screen and (max-width:1040px) {}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:991px) {}
+
+@media only screen and (max-width:910px) {}
+
+/* @media only screen and (max-width:767px) {} */
+/* #Media
+================================================== */
+
+/* #Media
+================================================== */
+
+@media (max-width: 768px) { 
+	.navbar-collapse.show{
+        position: absolute;
+        top: 125px;
+        z-index: 999;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        padding: 10px;
+    }
+	.navbar-brand img{
+		width: 120px;
+	}
+	.nav-item:after{
+		display: none;
+	}
+	.nav-item {
+		margin-right: 20px;
+	}
+	.nav-item::before {
+		position: absolute;
+		display: block;
+		top: 15px;
+		left: 0;
+		width: 11px;
+		height: 1px;
+		content: "";
+		border: none;
+		background-color: #000;
+		vertical-align: 0;
+	}
+	.dropdown-toggle::after {
+		position: absolute;
+		display: block;
+		top: 10px;
+		left: -23px;
+		width: 1px;
+		height: 11px;
+		content: "";
+		border: none;
+		background-color: #000;
+		vertical-align: 0;
+		transition: all 200ms linear;
+	}
+	.dropdown-toggle[aria-expanded="true"]::after{
+		transform: rotate(90deg);
+		opacity: 0;
+	}
+	.dropdown-menu {
+		padding: 0 !important;
+		background-color: transparent;
+		box-shadow: none;
+		transition: all 200ms linear;
+	}
+	.dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
+		margin-top: 10px !important;
+		margin-bottom: 20px !important;
+	}
+	.nextStep a {
+		font-size: 12px;
+		padding: 10px 10px;
+	}
+	.subscribe h2 {
+		font-size: 20px;
+	}
+	.footerSec .contactDetails{
+		font-size: 14px;
+	}
+	
+}
+
+@media only screen and (max-width:575px) {
+	
+}
+
+@media only screen and (max-width:385px) {}
